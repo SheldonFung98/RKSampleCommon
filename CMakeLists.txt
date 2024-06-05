@@ -18,7 +18,7 @@ include_directories(
     ${RKMEDIA_INCLUDE_DIR}/rkaiq/ipc_server
     ${RKMEDIA_INCLUDE_DIR}/rkaiq/common
 )
-file(GLOB SOURCES "src*.cpp")
+file(GLOB SOURCES "src/*.c")
 
 if(BUILD_ISP_2)
     add_library(${PROJECT_NAME} STATIC
